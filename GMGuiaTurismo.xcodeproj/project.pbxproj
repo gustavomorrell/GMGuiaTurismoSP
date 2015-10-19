@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACE33F471BD5972B00B0BD99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE33F461BD5972B00B0BD99 /* AppDelegate.swift */; };
+		ACE33F491BD5972B00B0BD99 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE33F481BD5972B00B0BD99 /* ViewController.swift */; };
+		ACE33F4C1BD5972B00B0BD99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACE33F4A1BD5972B00B0BD99 /* Main.storyboard */; };
+		ACE33F4E1BD5972B00B0BD99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACE33F4D1BD5972B00B0BD99 /* Assets.xcassets */; };
+		ACE33F511BD5972B00B0BD99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACE33F4F1BD5972B00B0BD99 /* LaunchScreen.storyboard */; };
+		ACE33F5C1BD5972B00B0BD99 /* GMGuiaTurismoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE33F5B1BD5972B00B0BD99 /* GMGuiaTurismoTests.swift */; };
+		ACE33F671BD5972B00B0BD99 /* GMGuiaTurismoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE33F661BD5972B00B0BD99 /* GMGuiaTurismoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACE33F581BD5972B00B0BD99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACE33F3B1BD5972B00B0BD99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACE33F421BD5972B00B0BD99;
+			remoteInfo = GMGuiaTurismo;
+		};
+		ACE33F631BD5972B00B0BD99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACE33F3B1BD5972B00B0BD99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACE33F421BD5972B00B0BD99;
+			remoteInfo = GMGuiaTurismo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ACE33F431BD5972B00B0BD99 /* GMGuiaTurismo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GMGuiaTurismo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACE33F461BD5972B00B0BD99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ACE33F481BD5972B00B0BD99 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ACE33F4B1BD5972B00B0BD99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACE33F4D1BD5972B00B0BD99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACE33F501BD5972B00B0BD99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACE33F521BD5972B00B0BD99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACE33F571BD5972B00B0BD99 /* GMGuiaTurismoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GMGuiaTurismoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACE33F5B1BD5972B00B0BD99 /* GMGuiaTurismoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GMGuiaTurismoTests.swift; sourceTree = "<group>"; };
+		ACE33F5D1BD5972B00B0BD99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACE33F621BD5972B00B0BD99 /* GMGuiaTurismoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GMGuiaTurismoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACE33F661BD5972B00B0BD99 /* GMGuiaTurismoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GMGuiaTurismoUITests.swift; sourceTree = "<group>"; };
+		ACE33F681BD5972B00B0BD99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACE33F401BD5972B00B0BD99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACE33F541BD5972B00B0BD99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACE33F5F1BD5972B00B0BD99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACE33F3A1BD5972B00B0BD99 = {
+			isa = PBXGroup;
+			children = (
+				ACE33F451BD5972B00B0BD99 /* GMGuiaTurismo */,
+				ACE33F5A1BD5972B00B0BD99 /* GMGuiaTurismoTests */,
+				ACE33F651BD5972B00B0BD99 /* GMGuiaTurismoUITests */,
+				ACE33F441BD5972B00B0BD99 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACE33F441BD5972B00B0BD99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACE33F431BD5972B00B0BD99 /* GMGuiaTurismo.app */,
+				ACE33F571BD5972B00B0BD99 /* GMGuiaTurismoTests.xctest */,
+				ACE33F621BD5972B00B0BD99 /* GMGuiaTurismoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACE33F451BD5972B00B0BD99 /* GMGuiaTurismo */ = {
+			isa = PBXGroup;
+			children = (
+				ACE33F461BD5972B00B0BD99 /* AppDelegate.swift */,
+				ACE33F481BD5972B00B0BD99 /* ViewController.swift */,
+				ACE33F4A1BD5972B00B0BD99 /* Main.storyboard */,
+				ACE33F4D1BD5972B00B0BD99 /* Assets.xcassets */,
+				ACE33F4F1BD5972B00B0BD99 /* LaunchScreen.storyboard */,
+				ACE33F521BD5972B00B0BD99 /* Info.plist */,
+			);
+			path = GMGuiaTurismo;
+			sourceTree = "<group>";
+		};
+		ACE33F5A1BD5972B00B0BD99 /* GMGuiaTurismoTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACE33F5B1BD5972B00B0BD99 /* GMGuiaTurismoTests.swift */,
+				ACE33F5D1BD5972B00B0BD99 /* Info.plist */,
+			);
+			path = GMGuiaTurismoTests;
+			sourceTree = "<group>";
+		};
+		ACE33F651BD5972B00B0BD99 /* GMGuiaTurismoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ACE33F661BD5972B00B0BD99 /* GMGuiaTurismoUITests.swift */,
+				ACE33F681BD5972B00B0BD99 /* Info.plist */,
+			);
+			path = GMGuiaTurismoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACE33F421BD5972B00B0BD99 /* GMGuiaTurismo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACE33F6B1BD5972B00B0BD99 /* Build configuration list for PBXNativeTarget "GMGuiaTurismo" */;
+			buildPhases = (
+				ACE33F3F1BD5972B00B0BD99 /* Sources */,
+				ACE33F401BD5972B00B0BD99 /* Frameworks */,
+				ACE33F411BD5972B00B0BD99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GMGuiaTurismo;
+			productName = GMGuiaTurismo;
+			productReference = ACE33F431BD5972B00B0BD99 /* GMGuiaTurismo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACE33F561BD5972B00B0BD99 /* GMGuiaTurismoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACE33F6E1BD5972B00B0BD99 /* Build configuration list for PBXNativeTarget "GMGuiaTurismoTests" */;
+			buildPhases = (
+				ACE33F531BD5972B00B0BD99 /* Sources */,
+				ACE33F541BD5972B00B0BD99 /* Frameworks */,
+				ACE33F551BD5972B00B0BD99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACE33F591BD5972B00B0BD99 /* PBXTargetDependency */,
+			);
+			name = GMGuiaTurismoTests;
+			productName = GMGuiaTurismoTests;
+			productReference = ACE33F571BD5972B00B0BD99 /* GMGuiaTurismoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ACE33F611BD5972B00B0BD99 /* GMGuiaTurismoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACE33F711BD5972B00B0BD99 /* Build configuration list for PBXNativeTarget "GMGuiaTurismoUITests" */;
+			buildPhases = (
+				ACE33F5E1BD5972B00B0BD99 /* Sources */,
+				ACE33F5F1BD5972B00B0BD99 /* Frameworks */,
+				ACE33F601BD5972B00B0BD99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACE33F641BD5972B00B0BD99 /* PBXTargetDependency */,
+			);
+			name = GMGuiaTurismoUITests;
+			productName = GMGuiaTurismoUITests;
+			productReference = ACE33F621BD5972B00B0BD99 /* GMGuiaTurismoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACE33F3B1BD5972B00B0BD99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Gustavo Morrell RM 49449";
+				TargetAttributes = {
+					ACE33F421BD5972B00B0BD99 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					ACE33F561BD5972B00B0BD99 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = ACE33F421BD5972B00B0BD99;
+					};
+					ACE33F611BD5972B00B0BD99 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = ACE33F421BD5972B00B0BD99;
+					};
+				};
+			};
+			buildConfigurationList = ACE33F3E1BD5972B00B0BD99 /* Build configuration list for PBXProject "GMGuiaTurismo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACE33F3A1BD5972B00B0BD99;
+			productRefGroup = ACE33F441BD5972B00B0BD99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACE33F421BD5972B00B0BD99 /* GMGuiaTurismo */,
+				ACE33F561BD5972B00B0BD99 /* GMGuiaTurismoTests */,
+				ACE33F611BD5972B00B0BD99 /* GMGuiaTurismoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACE33F411BD5972B00B0BD99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACE33F511BD5972B00B0BD99 /* LaunchScreen.storyboard in Resources */,
+				ACE33F4E1BD5972B00B0BD99 /* Assets.xcassets in Resources */,
+				ACE33F4C1BD5972B00B0BD99 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACE33F551BD5972B00B0BD99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACE33F601BD5972B00B0BD99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACE33F3F1BD5972B00B0BD99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACE33F491BD5972B00B0BD99 /* ViewController.swift in Sources */,
+				ACE33F471BD5972B00B0BD99 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACE33F531BD5972B00B0BD99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACE33F5C1BD5972B00B0BD99 /* GMGuiaTurismoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACE33F5E1BD5972B00B0BD99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACE33F671BD5972B00B0BD99 /* GMGuiaTurismoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACE33F591BD5972B00B0BD99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACE33F421BD5972B00B0BD99 /* GMGuiaTurismo */;
+			targetProxy = ACE33F581BD5972B00B0BD99 /* PBXContainerItemProxy */;
+		};
+		ACE33F641BD5972B00B0BD99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACE33F421BD5972B00B0BD99 /* GMGuiaTurismo */;
+			targetProxy = ACE33F631BD5972B00B0BD99 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ACE33F4A1BD5972B00B0BD99 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACE33F4B1BD5972B00B0BD99 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACE33F4F1BD5972B00B0BD99 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACE33F501BD5972B00B0BD99 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACE33F691BD5972B00B0BD99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ACE33F6A1BD5972B00B0BD99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACE33F6C1BD5972B00B0BD99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GMGuiaTurismo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = teste.GMGuiaTurismo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ACE33F6D1BD5972B00B0BD99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GMGuiaTurismo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = teste.GMGuiaTurismo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ACE33F6F1BD5972B00B0BD99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GMGuiaTurismoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = teste.GMGuiaTurismoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GMGuiaTurismo.app/GMGuiaTurismo";
+			};
+			name = Debug;
+		};
+		ACE33F701BD5972B00B0BD99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GMGuiaTurismoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = teste.GMGuiaTurismoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GMGuiaTurismo.app/GMGuiaTurismo";
+			};
+			name = Release;
+		};
+		ACE33F721BD5972B00B0BD99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GMGuiaTurismoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = teste.GMGuiaTurismoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GMGuiaTurismo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		ACE33F731BD5972B00B0BD99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GMGuiaTurismoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = teste.GMGuiaTurismoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GMGuiaTurismo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACE33F3E1BD5972B00B0BD99 /* Build configuration list for PBXProject "GMGuiaTurismo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACE33F691BD5972B00B0BD99 /* Debug */,
+				ACE33F6A1BD5972B00B0BD99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACE33F6B1BD5972B00B0BD99 /* Build configuration list for PBXNativeTarget "GMGuiaTurismo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACE33F6C1BD5972B00B0BD99 /* Debug */,
+				ACE33F6D1BD5972B00B0BD99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ACE33F6E1BD5972B00B0BD99 /* Build configuration list for PBXNativeTarget "GMGuiaTurismoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACE33F6F1BD5972B00B0BD99 /* Debug */,
+				ACE33F701BD5972B00B0BD99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ACE33F711BD5972B00B0BD99 /* Build configuration list for PBXNativeTarget "GMGuiaTurismoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACE33F721BD5972B00B0BD99 /* Debug */,
+				ACE33F731BD5972B00B0BD99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACE33F3B1BD5972B00B0BD99 /* Project object */;
+}
